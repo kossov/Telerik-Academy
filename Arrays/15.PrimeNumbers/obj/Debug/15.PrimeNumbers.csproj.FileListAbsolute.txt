@@ -1,1 +1,0 @@
-C:\Users\Ognyan\Documents\Visual Studio 2013\Projects\Arrays\15.PrimeNumbers\bin\Debug\15.PrimeNumbers.exe.config
