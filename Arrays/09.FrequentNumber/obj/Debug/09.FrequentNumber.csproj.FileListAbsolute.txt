@@ -1,0 +1,5 @@
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.exe.config
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.exe
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.pdb
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\09.FrequentNumber\obj\Debug\09.FrequentNumber.exe
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\09.FrequentNumber\obj\Debug\09.FrequentNumber.pdb

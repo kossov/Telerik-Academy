@@ -1,0 +1,6 @@
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\bin\Debug\06.MaximalKSum.exe.config
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\bin\Debug\06.MaximalKSum.exe
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\bin\Debug\06.MaximalKSum.pdb
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\obj\Debug\06.MaximalKSum.csprojResolveAssemblyReference.cache
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\obj\Debug\06.MaximalKSum.exe
+c:\users\ognyan\documents\visual studio 2013\Projects\Arrays\06.MaximalKSum\obj\Debug\06.MaximalKSum.pdb
