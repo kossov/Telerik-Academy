@@ -1,0 +1,109 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 660px;
+    height: 297px;
+    padding: 0;
+    background-color: #3B3B3B;
+    border: 1px solid #8D7053;
+    border-radius: 8px 8px;
+}
+
+    #wrapper .padded {
+        padding-left: 10px;
+    }
+
+    #wrapper header {
+        background-color: #313131;
+        border-radius: 8px 8px 0 0;
+        height: 64px;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 25px;
+        width: 100%;
+    }
+
+        #wrapper header #headerContent {
+            padding-top: 6px;
+            padding-bottom: 20px;
+        }
+
+            #wrapper header #headerContent img {
+                float: left;
+                margin-right: 20px;
+            }
+
+            #wrapper header #headerContent h2 {
+                display: inline-block;
+                margin: 0;
+                font-size: 22px;
+                font-weight: 600;
+                margin-top: 10px;
+                letter-spacing: 1px;
+            }
+
+            #wrapper header #headerContent form {
+                display: inline-block;
+                margin-top: -5px;
+            }
+
+                #wrapper header #headerContent form input[type=submit] {
+                    margin-left: 1px;
+                    width: 56px;
+                    height: 28px;
+                    margin-right: 0;
+                    border-radius: 10px 10px;
+                    border: 1px solid white;
+                    background-position-y: -1px;
+                    background-position-x: -1px;
+                    background-image: url('../images/go-button.jpg');
+                    vertical-align: -6px;
+                }
+
+                #wrapper header #headerContent form input {
+                    width: 136px;
+                    margin-right: 24px;
+                    vertical-align: 3px;
+                    padding-left: 10px;
+                    height: 16px;
+                }
+
+                    #wrapper header #headerContent form input:first-of-type {
+                        margin-left: 16px;
+                    }
+
+
+        #wrapper header #bottomLine {
+            height: 3px;
+            background: -moz-linear-gradient(left, rgba(59,59,59,0.9) 0%, rgba(38,38,38,0.9) 10%, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0.9) 50%, rgba(0,0,0,0.9) 65%, rgba(38,38,38,0.9) 90%, rgba(59,59,59,0.9) 100%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(59,59,59,0.9)), color-stop(10%,rgba(38,38,38,0.9)), color-stop(35%,rgba(0,0,0,0.9)), color-stop(50%,rgba(0,0,0,0.9)), color-stop(65%,rgba(0,0,0,0.9)), color-stop(90%,rgba(38,38,38,0.9)), color-stop(100%,rgba(59,59,59,0.9)));
+            background: -webkit-linear-gradient(left, rgba(59,59,59,0.9) 0%,rgba(38,38,38,0.9) 10%,rgba(0,0,0,0.9) 35%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.9) 65%,rgba(38,38,38,0.9) 90%,rgba(59,59,59,0.9) 100%);
+            background: -o-linear-gradient(left, rgba(59,59,59,0.9) 0%,rgba(38,38,38,0.9) 10%,rgba(0,0,0,0.9) 35%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.9) 65%,rgba(38,38,38,0.9) 90%,rgba(59,59,59,0.9) 100%);
+            background: -ms-linear-gradient(left, rgba(59,59,59,0.9) 0%,rgba(38,38,38,0.9) 10%,rgba(0,0,0,0.9) 35%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.9) 65%,rgba(38,38,38,0.9) 90%,rgba(59,59,59,0.9) 100%);
+            background: linear-gradient(to right, rgba(59,59,59,0.9) 0%,rgba(38,38,38,0.9) 10%,rgba(0,0,0,0.9) 35%,rgba(0,0,0,0.9) 50%,rgba(0,0,0,0.9) 65%,rgba(38,38,38,0.9) 90%,rgba(59,59,59,0.9) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b3b3b', endColorstr='#e63b3b3b',GradientType=1 );
+        }
+
+    #wrapper section h1 {
+        color: #F7D617;
+        font-size: 32px;
+        font-weight: normal;
+        margin-bottom:0;
+        margin-top: 17px;
+    }
+
+    #wrapper section a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #wrapper section p {
+        color: #898989;
+        width: 600px;
+        letter-spacing: 1px;
+        line-height: 18px;
+        font-size: 14px;
+    }

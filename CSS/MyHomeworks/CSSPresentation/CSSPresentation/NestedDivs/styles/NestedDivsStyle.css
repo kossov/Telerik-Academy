@@ -1,0 +1,15 @@
+﻿body {
+    padding: 0;
+}
+
+div > div > div > div >div > div >div > div >div > div >div > div >div > div >div > div >div > div >div > div >div > div >div > div div > div div > div > div > div div > div > div > div > div > div div > div > div > div > div{
+    border: 1px solid red;
+    background-color: black;
+    border-radius: 50px;
+    padding-right: 10%;
+
+    /* tried with :nth child but it's not working properly.. somehow :( 
+        anyway.. im pretty sure thats the right way to do, either with Nth child or some other shiet
+    */
+}
+

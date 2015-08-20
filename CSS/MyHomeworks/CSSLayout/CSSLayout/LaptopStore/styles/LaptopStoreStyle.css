@@ -1,0 +1,60 @@
+﻿.mainTable {
+    border-collapse: separate;
+    padding: 10px;
+    border: 1px solid black;
+    height: 450px;
+    width: 640px;
+}
+
+#laptops {
+    border: 1px solid black;
+    position: absolute;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+#ranges {
+    position: absolute;
+    left: 515px;
+    top: 43px;
+    height: 414px;
+    padding-top: 10%;
+}
+
+#MacBookImage {
+    height: 80px;
+    width: 130px;
+    float: left;
+}
+
+.table {
+    display: table;
+}
+
+.colgroup {
+    display: table-column-group;
+}
+
+    .colgroup div {
+        display: table-column;
+    }
+
+.tHead {
+    display: table-header-group;
+}
+
+    .tHead .tRow .tCell {
+        border-bottom: 1px solid black;
+        padding-bottom: 6px;
+        text-align: center;
+    }
+
+
+.tRow {
+    display: table-row;
+}
+
+.tCell {
+    display: table-cell;
+}

@@ -1,0 +1,15 @@
+#js-console {
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    width: 800px;
+    padding: 10px;
+
+    font-family: monospace;
+    color: #fbfbfb;
+    font-size: 36px;
+}
+
+p {
+    margin: 0;
+}

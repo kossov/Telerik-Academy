@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/RegistrationFormStyle.css" />
+</head>
+<body>
+    <table border="1">
+        <form>
+            <tbody>
+
+                <tr>
+                    <td align="center"><label for="fName"><b>First Name</b></label></td>
+                    <td><input type="text" name="firstName" id="fName" class="unordinary" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="lName"><b>Last Name</b></label></td>
+                    <td><input type="text" name="lastName" id="lName" class="unordinary" /></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" align="center"><label for="adress"><b>Adress</b></label></td>
+                    <td rowspan="3"><textarea style="width: 230px; height: 55px" id="adress"></textarea></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td align="center"><label for="city"><b>City</b></label></td>
+                    <td><input type="text" name="city" id="city" /> <label for="state">State</label> <input type="text" name="state" class="state" id="state" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="postalCode"><b>Zip/Postal Code</b></label></td>
+                    <td><input type="text" name="postalCode" id="postalCode" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="country"><b>Country</b></label></td>
+                    <td><select style="width: 150px" id="country"><option value="1">Bulgaria</option></select></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" align="left" width="145">
+                        <b>Phone(<label for="countryCode">country code</label>, <label for="areaCode">area code</label>, <label for="number">number</label>)</b>
+                    </td>
+                    <td rowspan="2">
+                        (+<input type="tel" name="countryCode" class="state" id="countryCode" />) <input type="tel" name="areaCode" id="areaCode" class="state" /> <input type="tel" name="number" style="width: 130px" id="number" />
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td align="center"><label for="email"><b>Email</b></label></td>
+                    <td><input type="email" name="email" class="unordinary" id="email" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="birth"><b>Birth date</b></label></td>
+                    <td><input type="text" name="bDate" value="дд . мм . гггг г." id="birth" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="gender"><b>Gender</b></label></td>
+                    <td>
+                        <select id="gender">
+                            <option value="1">Other</option>
+                            <option value="2">Male</option>
+                            <option value="3">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Starting date</b></td>
+                    <td>
+                        <input type="radio" name="date" value="Spring2015" id="springDate" /><label for="springDate">Spring 2015</label>
+                        <input type="radio" name="date" value="Summer2015" id="summerDate" /><label for="summerDate">Summer 2015</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><label for="comment"><b>Comments/Questions</b></label></td>
+                    <td><textarea style="width: 230px; height: 95px" id="comment"></textarea></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" name="submitButton" value="Submit" /> <input type="reset" value="Clean this Form" /></td>
+                </tr>
+            </tfoot>
+        </form> <!-- FUCK THAT! I WAS GOING TO WASTE 320942094920 HOURS OF PUTTING EVERY *insert* IN ONE FORM.. FORGIVE ME SENPAI ;(;(  -->
+    </table>
+</body>
+</html>

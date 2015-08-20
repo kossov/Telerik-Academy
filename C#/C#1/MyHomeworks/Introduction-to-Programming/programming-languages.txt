@@ -1,0 +1,9 @@
+Perform a research (e.g. in Google or Wikipedia) and provide a short list 
+with information about the most popular programming languages. 
+How similar are they to C#? How do they differ from C#?
+
+All programming languages have to offer a variety of functionalities used in different ways for the purpose of the written program. Furthermore those functionalities is what makes the language useful for its purpose.
+For Example: C++ is one of the most powerful programming language used in complex project as game development.
+Objective-C is used mainly for programs who run on operating system used by Apple - OS X and iOS. 
+C# is one of the popular choices to create websites and Windows applications it is similar to Java in some features,
+PHP though can use HTML so it is suitable for small and simple sites.

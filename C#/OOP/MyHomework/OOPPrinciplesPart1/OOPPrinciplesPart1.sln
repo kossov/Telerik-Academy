@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "School", "School", "{AAF64CFF-81E9-4AE5-86D1-F09F6B620DF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudentsAndWorkers", "StudentsAndWorkers", "{C52E30F8-9737-4FF2-8CFA-0935D7959F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsAndWorkers", "StudentsAndWorkersTest\StudentsAndWorkers.csproj", "{04D13411-DA67-4AFF-96EE-1D759700953E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnimalHierarchy", "AnimalHierarchy", "{4F2A7619-54E6-458A-88BE-19F80360DD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalHierarchy", "AnimalHierarchy\AnimalHierarchy.csproj", "{D5D23EFA-5EEF-44C5-8641-714E7E0A8644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schools", "Schools\Schools.csproj", "{131DE91F-5913-497D-B9A1-3288B805EE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D13411-DA67-4AFF-96EE-1D759700953E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D13411-DA67-4AFF-96EE-1D759700953E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D13411-DA67-4AFF-96EE-1D759700953E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D13411-DA67-4AFF-96EE-1D759700953E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D23EFA-5EEF-44C5-8641-714E7E0A8644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D23EFA-5EEF-44C5-8641-714E7E0A8644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D23EFA-5EEF-44C5-8641-714E7E0A8644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D23EFA-5EEF-44C5-8641-714E7E0A8644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131DE91F-5913-497D-B9A1-3288B805EE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131DE91F-5913-497D-B9A1-3288B805EE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131DE91F-5913-497D-B9A1-3288B805EE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131DE91F-5913-497D-B9A1-3288B805EE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04D13411-DA67-4AFF-96EE-1D759700953E} = {C52E30F8-9737-4FF2-8CFA-0935D7959F85}
+		{D5D23EFA-5EEF-44C5-8641-714E7E0A8644} = {4F2A7619-54E6-458A-88BE-19F80360DD7E}
+		{131DE91F-5913-497D-B9A1-3288B805EE9D} = {AAF64CFF-81E9-4AE5-86D1-F09F6B620DF2}
+	EndGlobalSection
+EndGlobal

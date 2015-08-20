@@ -1,0 +1,14 @@
+﻿.mainTable {
+    border-collapse: collapse;
+    border-right-color: white;
+}
+
+#laptops {
+    border: 1px solid black;
+}
+
+#MacBookImage {
+    height: 80px;
+    width: 130px;
+    float: left;
+}

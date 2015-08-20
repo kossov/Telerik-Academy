@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.3-6-9", "01.Gardens\01.3-6-9.csproj", "{BFE7EB83-EA90-4AAC-8ECD-C343B6871DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.The Horror", "02.The Horror\02.The Horror.csproj", "{CD2FC177-994C-4C15-8B8A-3E571DE081CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.XExpressionBonnie", "03.XExpressionBonnie\03.XExpressionBonnie.csproj", "{6AFEAD70-FC70-49C1-A801-B7FA3EB0BD8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE7EB83-EA90-4AAC-8ECD-C343B6871DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE7EB83-EA90-4AAC-8ECD-C343B6871DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE7EB83-EA90-4AAC-8ECD-C343B6871DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE7EB83-EA90-4AAC-8ECD-C343B6871DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2FC177-994C-4C15-8B8A-3E571DE081CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2FC177-994C-4C15-8B8A-3E571DE081CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2FC177-994C-4C15-8B8A-3E571DE081CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2FC177-994C-4C15-8B8A-3E571DE081CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFEAD70-FC70-49C1-A801-B7FA3EB0BD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFEAD70-FC70-49C1-A801-B7FA3EB0BD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFEAD70-FC70-49C1-A801-B7FA3EB0BD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFEAD70-FC70-49C1-A801-B7FA3EB0BD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

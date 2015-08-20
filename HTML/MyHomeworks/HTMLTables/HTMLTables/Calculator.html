@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/CalculatorStyle.css"/>
+    <script type="text/javascript" src="JSs/CalculatorLogic.js"></script>
+</head>
+<body>
+    <table border="1" cellspacing="20" id="calculator">
+        <tr>
+            <td colspan="4"><input type="text" id="calcScreen" class="calcScreen" name="calcScreen" disabled></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="buttons" name="1" value="1" onclick="writeToScreen('1')"/></td>
+            <td><input type="button" class="buttons" name="2" value="2" onclick="writeToScreen('2')" /></td>
+            <td><input type="button" class="buttons" name="3" value="3" onclick="writeToScreen('3')" /></td>
+            <td><input type="button" class="buttons" name="+" value="+" onclick="writeToScreen('+')" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="buttons" name="4" value="4" onclick="writeToScreen('4')" /></td>
+            <td><input type="button" class="buttons" name="5" value="5" onclick="writeToScreen('5')" /></td>
+            <td><input type="button" class="buttons" name="6" value="6" onclick="writeToScreen('6')" /></td>
+            <td><input type="button" class="buttons" name="-" value="-" onclick="writeToScreen('-')" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="buttons" name="7" value="7" onclick="writeToScreen('7')" /></td>
+            <td><input type="button" class="buttons" name="8" value="8" onclick="writeToScreen('8')" /></td>
+            <td><input type="button" class="buttons" name="9" value="9" onclick="writeToScreen('9')" /></td>
+            <td><input type="button" class="buttons" name="*" value="*" onclick="writeToScreen('*')" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" class="buttons" name="0" value="0" onclick="writeToScreen('0')" /></td>
+            <td><input type="button" class="buttons" name="." value="." onclick="writeToScreen('.')" /></td>
+            <td><input type="button" class="buttons" name="/" value="/" onclick="writeToScreen('/')" /></td>
+        </tr>
+    </table>
+</body>
+</html>

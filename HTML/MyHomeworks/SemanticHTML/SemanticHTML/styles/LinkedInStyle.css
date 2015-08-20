@@ -1,0 +1,55 @@
+﻿body {
+    border: 2px solid black;
+    margin: 0;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+#signText {
+    margin-left: 0;
+}
+
+#mainText {
+    font-size: 20px;
+}
+
+header, nav, section, p, h1, h3 {
+    margin: 5px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: small;
+    margin: 0;
+}
+
+h3 {
+    font-size: medium;
+}
+
+#signInForms {
+    list-style-type: circle;
+}
+
+fieldset {
+    width: 98%;
+    border-right-style: none;
+    border: 1px solid #DADDE6;
+}
+
+#alreadyOnLinkedIn {
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+}
+
+#joinNowButton {
+    margin-left: 12px;
+}
+
+#goButton {
+    margin-bottom: 8px;
+    margin-left: 5px;
+}

@@ -1,0 +1,14 @@
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.Write in a text file called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each of them. Use English.
+
+Eclipse - its big use is to develop Android applications via Android SKD in that spirit it is fully extensible to use different languages such as Ruby, C, C++ etc.
+
+NetBeans - alternative to Eclipse and it has a bonus- compiles code, so provides a testing environment maybe on second place after WebSphere
+
+MonoDevelop - primarily used for desctop applications in C#. With it you  create powerful cross-platform applications which means you can port your project to Windows,Mac or Linux also has the option to port VisualStudio projects 
+
+Code::Blocks - good IDE which allows you to configure what you dont like, mostly used for C and C++ 
+
+Kate - uses Linux, doesnt require much RAM which makes it very smooth, though it looks like a text editor also it doenst compile code.
+
+
+

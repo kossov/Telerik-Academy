@@ -1,0 +1,27 @@
+﻿body {
+    color: #0094ff;
+    font: 18px Consolas;
+    margin: 0;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: EdwardianScriptITC;
+    src: url('../fonts/ITCEDSCR.TTF');
+}
+
+h1:first-letter {
+    font-family: EdwardianScriptITC;
+    font-size: 46px;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}

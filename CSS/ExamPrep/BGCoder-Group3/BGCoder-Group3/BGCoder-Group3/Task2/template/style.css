@@ -1,0 +1,95 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+.menu {
+    padding: 7px 0;
+    padding-left: 5px;
+    display: table;
+}
+
+    .menu > li {
+        text-align: center;
+        padding: 10px 30px;
+        margin-bottom: 10px;
+        background-color: #B6FF00;
+        border-radius: 15px;
+        position: relative;
+    }
+
+li:hover ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+    li:hover ul img {
+        display: none;
+    }
+
+    li:hover ul li {
+        margin: 0;
+        margin-bottom: 10px;
+        background-color: #008000;
+        padding: 20px;
+        white-space: nowrap;
+        width: 500px;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    li:hover ul li a:hover{
+        text-decoration: underline;
+    }
+
+li ul li a:hover + img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+li ul:hover {
+    display: block;
+}
+
+li:hover ul li a {
+    color: white;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu li:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+

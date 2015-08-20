@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link href="styles/CalculatorStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <img src="images/border.png" alt="calculatorBorder" />
+    <table id="main-table" border="1">
+        <thead>
+            <tr>
+                <td>
+                    <table id="nav-table">
+                        <tr>
+                            <th><span class="underlined">V</span>iew</th>
+                            <th><span class="underlined">E</span>dit</th>
+                            <th><span class="underlined">H</span>elp</th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="primary-table-tdContainer">
+                    <table id="primary-table">
+                        <tr>
+                            <td id="text-box-td"
+                                rowspan="2"
+                                colspan="10">
+                                8854455
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td id="binary-box-td"
+                                rowspan="2"
+                                colspan="10">
+                                <img src="images/shanoStuff.jpg" alt="binaryBox" />
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td id="numerical-systems-td"
+                                rowspan="3"
+                                colspan="2">
+                                <div><input type="radio" value="Hex" name="b" />Hex</div>
+                                <div><input type="radio" value="Dec" name="b" />Dec</div>
+                                <div><input type="radio" value="Oct" name="b" />Oct</div>
+                                <div><input type="radio" value="Bin" name="b" />Bin</div>
+                            </td>
+                            <td class="strangeButton"></td>
+                            <td class="buttonZ active whiteGray">Mod</td>
+                            <td class="buttonZ inactive">A</td>
+                            <td class="buttonZ active gray">MC</td>
+                            <td class="buttonZ active gray">MR</td>
+                            <td class="buttonZ active gray">MS</td>
+                            <td class="buttonZ active gray">M+</td>
+                            <td class="buttonZ active gray">M-</td>
+                        </tr>
+                        <tr>
+                            <td class="buttonZ active whiteGray">(</td>
+                            <td class="buttonZ active whiteGray">)</td>
+                            <td class="buttonZ inactive">B</td>
+                            <td class="buttonZ active whiteGray">←</td>
+                            <td class="buttonZ active whiteGray">CE</td>
+                            <td class="buttonZ active whiteGray">C</td>
+                            <td class="buttonZ active whiteGray">±</td>
+                            <td class="buttonZ inactive">√</td>
+                        </tr>
+                        <tr>
+                            <td class="buttonZ active whiteGray">RoL</td>
+                            <td class="buttonZ active whiteGray">RoR</td>
+                            <td class="buttonZ inactive">C</td>
+                            <td class="buttonZ active white">7</td>
+                            <td class="buttonZ active white">8</td>
+                            <td class="buttonZ active white">9</td>
+                            <td class="buttonZ active whiteGray">/</td>
+                            <td class="buttonZ inactive">%</td>
+                        </tr>
+                        <tr>
+                            <td id="size-representation-td"
+                                colspan="2"
+                                rowspan="3">
+                                <div><input type="radio" value="Qword" name="a" />Qword</div>
+                                <div><input type="radio" value="Dword" name="a" />Dword</div>
+                                <div><input type="radio" value="Word" name="a" />Word</div>
+                                <div><input type="radio" value="Byte" name="a" />Byte</div>
+                            </td>
+                            <td class="buttonZ active whiteGray">Or</td>
+                            <td class="buttonZ active whiteGray">Xor</td>
+                            <td class="buttonZ inactive">D</td>
+                            <td class="buttonZ active white">4</td>
+                            <td class="buttonZ active white">5</td>
+                            <td class="buttonZ active white">6</td>
+                            <td class="buttonZ active whiteGray">*</td>
+                            <td class="buttonZ inactive">1/x</td>
+                        </tr>
+                        <tr>
+                            <td class="buttonZ active whiteGray">Lsh</td>
+                            <td class="buttonZ active whiteGray">Rsh</td>
+                            <td class="buttonZ inactive">E</td>
+                            <td class="buttonZ active white">1</td>
+                            <td class="buttonZ active white">2</td>
+                            <td class="buttonZ active white">3</td>
+                            <td class="buttonZ active whiteGray">-</td>
+                            <td class="buttonZ active whiteGray"
+                                rowspan="2">
+                                =
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="buttonZ active whiteGray">Not</td>
+                            <td class="buttonZ active whiteGray">And</td>
+                            <td class="buttonZ inactive">F</td>
+                            <td class="buttonZ active white"
+                                colspan="2">
+                                0
+                            </td>
+                            <td class="buttonZ inactive">.</td>
+                            <td class="buttonZ active whiteGray"><span class="whiteBorder">+</span></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

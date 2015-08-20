@@ -1,0 +1,41 @@
+﻿body {
+    font: 12px Arial;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+}
+
+table {
+    border: none;
+    border-spacing: 0 0;
+    border-bottom: 1px solid #C0BEA4;
+}
+
+td {
+    border-right: 1px solid #C0BEA4;
+}
+
+th, td {
+    padding-left: 5px;
+}
+
+th {
+    line-height: 20px;
+    font-weight: normal;
+    text-align: left;
+    color: white;
+    background: linear-gradient(#59BD06,#47A803);
+    border-right: 2px solid #50A01D;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #ECECD8;
+}
+
+img {
+    vertical-align: middle;
+    height: 17px;
+    width: 24px;
+}

@@ -1,0 +1,209 @@
+defaultBorder = 1px solid #000000
+defaultBorder-radius = 15px
+defaultFont-color = #F4FFFF
+defaultLink-color = #D08CF7
+defaultBackground-from = #D593FF
+defaultBackground-to = #9215F2
+registrationFormBorder-dark = 1px solid #3C2051
+registrationFormBorder-light = 1px solid #C0AFCE
+registrationFormBackground = #B35EF3
+
+vgradient(fromColor, fromPos, toColor, toPos)
+    background -moz-linear-gradient(top,  fromColor fromPos, toColor toPos)
+    background -webkit-gradient(linear, left top, left bottom, color-stop(fromPos,fromColor), color-stop(toPos,toColor))
+    background -webkit-linear-gradient(top,  fromColor fromPos,toColor toPos)
+    background -o-linear-gradient(top,  fromColor fromPos,toColor toPos)
+    background -ms-linear-gradient(top,  fromColor fromPos,toColor toPos)
+    background linear-gradient(to bottom,  fromColor fromPos,toColor toPos)
+    
+clearfix()
+	zoom 1
+	&:after
+		display block
+		content ''
+		clear both
+		height 0
+
+body{
+    vgradient(#D593FF, 0%, #9215F2, 20%);
+    color: defaultFont-color;
+
+    a{
+        text-decoration: none;
+        color: defaultLink-color;
+    }
+}
+
+nav{
+    border: defaultBorder;
+    border-radius: defaultBorder-radius*1.5;
+    width: 70%;
+    margin: 0 20px 30px;
+    font-size: 1.5em;
+
+    &>ul{
+        list-style-type: none;
+
+        & li{
+            padding: 7px;
+            border-radius: defaultBorder-radius/2;
+            &:hover{
+                background: lighten(defaultBackground-to, 10%);
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: defaultFont-color;
+            padding: 2px 5px 2px 0;
+        }
+
+        &>li{
+            display: inline;
+
+            ul{
+                position: absolute;
+                display: none;
+                list-style-type: none;
+                margin: 0 50px;
+                padding: 10px 0 0 0;
+            }
+
+            &:hover{
+                ul{
+                    display: block;
+                    background-color: defaultBackground-to; 
+                }
+            }
+        }
+    }
+}
+
+#header-container{
+
+    clearfix()
+
+    #logo-container {
+			float: left;
+            margin-bottom: 5px;
+		}
+
+		#reg-form-container{
+			float: right;
+			margin: 0 100px 0 0;
+		}
+
+		input {
+			background-color: registrationFormBackground;
+			border: registrationFormBorder-dark;
+			border-radius: defaultBorder-radius;
+			margin-top: 10px;
+			height: 24px;
+			width: 150px;
+		}
+
+		label {
+			margin-right:15px;
+		}
+
+		#btn-register {
+			border-bottom: registrationFormBorder-dark;
+			border-right: registrationFormBorder-dark;
+
+			border-top: registrationFormBorder-light;
+			border-left: registrationFormBorder-light;
+
+			background-color: registrationFormBackground;
+			width:80px;
+			height:26px;
+
+			border-radius:10px;
+
+			margin-left:-10px;
+			margin-top:2px;
+			color:#FFFFFF;
+		}
+}
+
+section{
+        clearfix()
+        width:70%;
+		float:left;
+		margin: 0;
+
+    article{
+            padding: 5px 15px;
+			border: registrationFormBorder-dark;
+			border-radius:20px;
+			margin: 20px 0 15px 5px;
+
+			header {
+				margin:5px;
+			}
+
+			footer {
+				text-align: right;
+				font-size: 1em;
+                font-weight: 400;
+
+				a{
+					text-decoration:none;
+					color:#CF9AF8;
+				}
+			}
+
+            time{
+                font-family: Consolas;
+                font-weight: 400;
+            }
+    }
+}
+
+aside{
+    clearfix()
+    a {
+			text-decoration:none;
+			color:#A496AF;
+		}
+
+		strong {
+			color:#CCCCD1;
+		}
+
+		em {
+			color:#C0B2D6;
+		}
+		ul {
+			list-style:none;
+		}
+		&>ul {
+			display:inline-block;
+			width:20%;
+			margin: 20px 0 0 20px;
+
+			&>li {
+				border: defaultBorder;
+                border-radius: defaultBorder-radius/2;
+				padding:10px;
+				margin-top:20px;
+
+				&>ul>li {
+					padding-left:25px;
+					background-image:url('images/li-dot.png');
+					background-repeat:no-repeat;
+					background-position-y:50%;
+					margin-left:5px;
+				}
+			}
+		}
+    
+}
+
+	footer {
+        clearfix()
+
+		text-align:center;
+		font-size:1.3em;
+		font-weight:800;
+		margin-top:20px;
+	}

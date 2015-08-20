@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            background: -webkit-linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* Chrome 10+, Saf5.1+ */
+            background:    -moz-linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* FF3.6+ */
+            background:     -ms-linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* IE10 */
+            background:      -o-linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* Opera 11.10+ */
+            background:         linear-gradient(90deg, #C9FFBF 10%, #FFAFBD 90%); /* W3C */
+        }
+        #the-canvas {
+            background-color: rgba(0,0,0,0.2);
+            margin-left: 270px;
+            float: left;
+        }
+        #start {
+            width: 100px;
+            height: 100px;
+            margin-left: 70px;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+<body onload="docReady()">
+<canvas id="the-canvas" width="800" height="600">
+</canvas>
+<div id="results"></div>
+<div id="scores"></div>
+<button id="start">Start over</button>
+<script src="index.js"></script>
+</body>
+</html>

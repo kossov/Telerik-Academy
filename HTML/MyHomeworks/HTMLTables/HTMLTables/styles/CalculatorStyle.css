@@ -1,0 +1,26 @@
+﻿body{
+    background-color: tomato;
+}
+
+#calculator {
+    margin: 100px 35%;
+    border: groove 15px;
+}
+
+.buttons {
+    width: 100%;
+    height: 55px;
+}
+
+.calcScreen {
+    width: 300px;
+    height: 50px;
+    text-align: right;
+}
+
+#calculator input.buttons, .calcScreen[type="text"] {
+    background-color: #333333;
+    opacity: 0.8;
+    color: #B9DFE6;
+    font-size: 30px;
+}

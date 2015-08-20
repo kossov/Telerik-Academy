@@ -1,0 +1,89 @@
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 2px;
+}
+
+#wrapper {
+	width: 960px;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper header {
+    padding: 20px;
+    padding-bottom: 0;
+    background-image: url('images/header-bg.png');
+    border-bottom: 5px solid #39C218;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+#title {
+    float: left;
+}
+
+#title h1 {
+    font-size: 34px;
+    color: #BFC1B3;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #87AAC3;
+    font-weight: normal;
+}
+
+#nav {
+    float: right;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #D46700;
+}
+
+#content {
+    float: left;
+    display: inline-block;
+    width: 80%;
+}
+
+#content h1 {
+    font-size: 30px;
+    color: #5B7D05;
+}
+
+#aside {
+    width: 20%;
+    margin-top: 20px;
+    float: right;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6A6D00;
+}
+
+#aside input[type=search] {
+    margin-top: 2px;
+    width: 150px;
+}
