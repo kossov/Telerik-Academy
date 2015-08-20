@@ -1,0 +1,26 @@
+﻿namespace TowerDefense.Main
+{
+    using System;
+
+    public class InvalidNameException : ApplicationException
+    {
+        public InvalidNameException()
+        {
+        }
+
+        public InvalidNameException(string message)
+            : base(message)
+        {
+        }
+
+        public InvalidNameException(string message, Exception inner)
+            : base(message, inner)
+        {
+        }
+
+        public override string Message
+        {
+            get { return "something wrong happened"; }
+        }
+    }
+}
